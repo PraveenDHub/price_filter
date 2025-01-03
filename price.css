@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+.container{
+    display: flex;
+
+}
+
+.slider{
+    width: 250px;
+    min-height: 100vh;
+    padding: .5rem;
+    background-color: aliceblue;
+}
+
+.logo{
+    color: #c0392b;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* letter-spacing: 1px; */
+    margin-bottom: .5rem;
+}
+
+#search-input{
+    outline: none;
+    padding: 0 .5rem;
+    color: gray;
+    margin-bottom: 1rem;
+}
+
+.slider h2{
+    font-weight: 600;
+    margin: .5rem 0;
+}
+
+ul > li{
+    list-style: none;
+    margin: .3rem 0;
+    padding-left: .3rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+ul > li:hover{
+    background-color: rgba(119, 136, 153, 0.288);
+}
+
+.range{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.right{
+    padding: 1rem;
+    z-index: -1;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.product{
+    box-shadow: 0px 0px 20px 16px rgba(17, 17, 26, 0.08);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.pic{
+    width: 250px;
+    height: 300px;
+}
+
+.product img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.product-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .1rem;
+}
+
+.title{
+    color: #d35400;
+    margin-top: .5rem;
+}
+
+.amount{
+    color: #2980b9;
+}
+
+.store{
+    color: #2ecc71;
+}
